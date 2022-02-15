@@ -94,8 +94,25 @@ print(nums)
 #     Main()
 #---------------------------------------------------
 
-# Python program to illustrate
-# a simple for loop
+# # Python program to illustrate
+# # a simple for loop
 
-for step in range(5):
-    print(step)
+# for step in range(5):
+#     print(step)
+#-------------------------------------
+
+# Python program to illustrate
+# math module
+import math
+
+def Main():
+    num = -85
+
+    # fabs is used to get the absolut
+    # value of a decimal
+    num = math.fabs(num)
+    print(num)
+
+
+if __name__=="__main__":
+    Main()
